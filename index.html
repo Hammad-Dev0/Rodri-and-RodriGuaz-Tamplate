@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodri & Rodriguez</title>
+    <!-- font awesome link -->
+     <script src="https://kit.fontawesome.com/b86efea6d1.js" crossorigin="anonymous"></script>
+   <!-- js link file -->
+    <script src="js/script.js" defer></script>
+    <!-- tailwind cdn -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- header of the site -->
+     <header>
+       <!-- navbar of the site -->
+        <nav class="sticky top-0 z-50 bg-[#0F3430] h-[72px] flex items-center">
+  <div class="w-full flex justify-between items-center px-6">
+
+    <!-- Logo -->
+    <a href="#" class="text-[#E4EA6B] hover:text-white text-[15px]">
+      Rodri & Rodriguez
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex gap-10">
+      <li><a href="index.html" class="text-[#E4EA6B] hover:text-white text-[15px]">Home</a></li>
+      <li><a href="about.html" class="text-[#E4EA6B] hover:text-white text-[15px]">About Us</a></li>
+      <li><a href="Services.html" class="text-[#E4EA6B] hover:text-white text-[15px]">Our Services</a></li>
+      <li><a href="contact.html" class="text-[#E4EA6B] hover:text-white text-[15px]">Contact Us</a></li>
+    </ul>
+
+    <!-- Hamburger Button -->
+    <button id="menu-btn" class="md:hidden text-[#E4EA6B] focus:outline-none">
+      ☰
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden absolute top-[72px] left-0 w-full bg-[#0F3430] md:hidden">
+    <ul class="flex flex-col items-center gap-6 py-6">
+      <li><a href="index.html" class="text-[#E4EA6B] hover:text-white">Home</a></li>
+      <li><a href="about.html" class="text-[#E4EA6B] hover:text-white">About Us</a></li>
+      <li><a href="Services.html" class="text-[#E4EA6B] hover:text-white">Our Services</a></li>
+      <li><a href="contact.html" class="text-[#E4EA6B] hover:text-white">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+  <hr class="border-t border-yellow-300">
+
+     </header>
+     <!-- main content of the site -->
+      <main>
+
+       <!-- luxury cleaning -->
+       <section class="flex flex-col md:flex-row min-h-screen bg-[#0F3430]">
+
+  <!-- LEFT CONTENT -->
+  <div class="w-full md:w-1/2 px-6 md:px-0">
+
+    <h1 class="text-center md:text-center pt-16 md:pt-20 
+               text-[#E4EA6B] text-[32px] md:text-[48px]  font-[600]  lg:text-center">
+      Luxury Cleaning <br /> for Your Home
+    </h1>
+
+    <p class="text-center md:text-center pt-6 text-[13px] text-[#E4EA6B] lg:text-center">
+      We guarantee a spotless environment every time.
+    </p>
+
+    <div class="flex justify-center md:justify-center">
+      <button
+        class="mt-12 border py-2 px-6 rounded-full 
+               bg-[#B0E4FF] text-[#092421] text-[14px]
+               hover:bg-black hover:text-[#B0E4FF]
+               cursor-pointer hover:border-[#B0E4FF]
+               transition-all duration-[600ms]">
+        Book Now
+      </button>
+    </div>
+
+    <div class="mt-12">
+      <img src="images/two.avif"
+           alt="cleaning-2"
+           class="w-full h-auto object-cover">
+    </div>
+
+  </div>
+
+  <!-- RIGHT IMAGE -->
+  <div class="w-full md:w-1/2 border-t md:border-t-0 md:border-l border-[#E4EA6B]">
+    <img src="images/one.png"
+         alt="cleaning-1"
+         class="w-full h-full object-cover">
+  </div>
+
+</section>
+<!-- about section -->
+
+<div class="min-h-[65vh] bg-[#0F3430] px-6 md:px-20 pt-16 text-center">
+
+  <h1 class="text-[#E4EA6B] font-[600]
+             text-[30px] md:text-[36px] lg:text-[42px]">
+    About
+  </h1>
+
+  <p class="pt-6 text-[#E4EA6B]
+            text-[13px] md:text-[14px] lg:text-[13px]
+            max-w-[500px] mx-auto leading-relaxed">
+    At Rodri & Rodriguez, we specialize in offering high-end cleaning services for
+    both residential and commercial properties. Our mission is to provide luxury
+    cleaning experiences that redefine cleanliness standards. With a commitment
+    to excellence, we ensure impeccable results every time.
+  </p>
+
+  <div class="flex justify-center">
+    <button 
+      class=" mb-6 md:mb-6 mt-12 border py-2 px-6 rounded-full
+             bg-[#B0E4FF] text-[#092421] text-[14px]
+             hover:bg-black hover:text-[#B0E4FF]
+             cursor-pointer hover:border-[#B0E4FF]
+             transition-all duration-[600ms]">
+      Learn More
+    </button>
+  </div>
+
+</div>
+
+<!-- cleaning image 4 -->
+<hr class="border-t border-yellow-300">
+
+<img
+  src="images/cleaning 3.avif"
+  alt="cleaning-3"
+  class="w-full object-cover
+         h-[60vh] md:h-[80vh] lg:h-[100vh]">
+
+         <hr class="border-t border-yellow-300">
+         
+         <!-- testimonial -->
+         
+         <section class="bg-[#0F3430] py-24">
+
+  <h1 class="text-[#E4EA6B] px-6 md:px-10
+             text-[32px] md:text-[44px] lg:text-[52px] font-[500]">
+    Testimonials
+  </h1>
+
+  <hr class="border-t border-yellow-300 my-6 pt-16">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-6 md:px-10">
+
+    <!-- testimonial 1 -->
+    <div>
+      <p class="text-[#E4EA6B] text-[13px] md:text-[14px] leading-relaxed">
+        “Exceptional service! Rodri & <br/> Rodriguez transformed my <br/> home into a
+        sparkling paradise.”
+      </p>
+      <h6 class="mt-4 text-[#E4EA6B] text-[14px] font-[500]">
+        Samantha
+      </h6>
+    </div>
+
+    <!-- testimonial 2 -->
+    <div>
+      <p class="text-[#E4EA6B] text-[13px] md:text-[14px] leading-relaxed">
+        “Professional and reliable. I <br/> trust Rodri & Rodriguez for all <br/> my
+        cleaning needs.”
+      </p>
+      <h6 class="mt-4 text-[#E4EA6B] text-[14px] font-[500]">
+        Micheal
+      </h6>
+    </div>
+
+    <!-- testimonial 3 -->
+    <div>
+      <p class="text-[#E4EA6B] text-[13px] md:text-[14px] leading-relaxed">
+        “Outstanding work ethic and <br/> attention to detail. Highly <br/> recommend
+        their services.”
+      </p>
+      <h6 class="mt-4 text-[#E4EA6B] text-[14px] font-[500]">
+        Luisa
+      </h6>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- why choose us  -->
+
+<hr class="border-t border-yellow-300">
+
+<section class="bg-[#0F3430] py-16">
+
+  <h1 class="text-[#E4EA6B] px-6 md:px-12
+             text-[32px] md:text-[40px] lg:text-[48px] font-[500]">
+    Why Choose Us
+  </h1>
+
+  <hr class="border-t border-yellow-300 my-6">
+
+  <!-- ITEM 1-->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:px-12 py-6">
+    <h2 class="text-[#E4EA6B] font-[600] text-[18px] md:text-[20px]">
+      Quality
+    </h2>
+    <p class="text-[#E4EA6B] text-[13px] md:text-[14px] leading-relaxed">
+      We pride ourselves on delivering top-notch cleaning services <br/> with a focus
+      on perfection. Our team ensures that every corner <br/> is spotless, exceeding
+      your expectations.
+    </p>
+  </div>
+
+  <hr class="border-t border-yellow-300">
+
+  <!-- ITEM 2-->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:px-12 py-6">
+    <h2 class="text-[#E4EA6B] font-[600] text-[18px] md:text-[20px]">
+      Reliability
+    </h2>
+    <p class="text-[#E4EA6B] text-[13px] md:text-[14px] leading-relaxed">
+      You can rely on us for consistent and reliable cleaning <br/> solutions. Our
+      dedication to quality and reliability sets us <br/> apart, making us the
+      preferred choice for luxury cleaning.
+    </p>
+  </div>
+
+  <hr class="border-t border-yellow-300">
+
+  <!-- ITEM 3-->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:px-12 py-6">
+    <h2 class="text-[#E4EA6B] font-[600] text-[18px] md:text-[20px]">
+      Excellence
+    </h2>
+    <p class="text-[#E4EA6B] text-[13px] md:text-[14px] leading-relaxed ">
+      For unparalleled cleaning excellence, Rodri & Rodriguez is the <br/> name to
+      trust. Experience the  difference with our exceptional <br/> services tailored
+      to meet your needs.
+    </p>
+  </div>
+
+  <hr class="border-t border-yellow-300">
+
+</section>
+
+      </main>
+
+      <!-- footer of the site -->
+       <footer>
+        <!-- contact us -->
+
+        <section class="flex flex-col md:flex-row bg-[#0F3430] min-h-screen">
+
+  <!-- LEFT TITLE -->
+  <div class="w-full md:w-1/2">
+    <h1 class="text-[#E4EA6B]
+               text-[32px] md:text-[42px] lg:text-[48px]
+               p-6 md:p-10">
+      Contact Us
+    </h1>
+  </div>
+
+  <!-- FORM -->
+  <div class="w-full md:w-1/2 px-6 md:px-0">
+    <form class="text-[#E4EA6B] max-w-[420px] mx-auto md:mx-0 md:mt-12">
+
+      <label class="text-[14px]">First Name*</label>
+      <input type="text" required
+        class="w-full border border-yellow-300 outline-none
+               px-4 py-2 rounded-full mb-4 bg-transparent">
+
+      <label class="text-[14px]">Last Name*</label>
+      <input type="text" required
+        class="w-full border border-yellow-300 outline-none
+               px-4 py-2 rounded-full mb-4 bg-transparent">
+
+      <label class="text-[14px]">Email*</label>
+      <input type="email" required
+        class="w-full border border-yellow-300 outline-none
+               px-4 py-2 rounded-full mb-4 bg-transparent">
+
+      <label class="text-[14px]">Phone</label>
+      <input type="tel"
+        class="w-full border border-yellow-300 outline-none
+               px-4 py-2 rounded-full mb-4 bg-transparent">
+
+      <label class="text-[14px]">Message</label>
+      <textarea
+        class="w-full border border-yellow-300 outline-none
+               rounded-md h-[90px] px-4 py-2 bg-transparent mb-6"></textarea>
+
+      <button
+        class="w-full md:w-auto border py-2 px-10 rounded-full
+               bg-[#B0E4FF] text-[#092421] text-[14px]
+               hover:bg-black hover:text-[#B0E4FF]
+               hover:border-[#B0E4FF]
+               transition-all duration-[600ms] cursor-pointer lg:px-48">
+        Submit
+      </button>
+
+    </form>
+  </div>
+
+</section>
+
+<hr class="border-t border-yellow-300">
+
+<h1 class="bg-[#0F3430] text-[24px] md:text-[32px] text-[#E4EA6B] p-6 md:p-8 text-center md:text-left">
+  Rodri & Rodriguez
+</h1>
+
+<hr class="border-t border-yellow-300">
+
+<div class="flex flex-col md:flex-row gap-12 md:gap-20 min-h-[80vh] bg-[#0F3430] px-6 md:px-0">
+
+  <!-- LEFT / FORM -->
+  <div class="w-full md:w-[40%]">
+    <h6 class="text-[#E4EA6B] text-[13px] pt-12 md:pt-22 md:pl-12">
+      Stay Connected With US
+    </h6>
+
+    <form class="text-[14px] text-[#E4EA6B] pt-8 md:pt-12 md:pl-12">
+      <label>Enter Your Email Address*</label><br/><br/>
+
+      <input
+        type="email"
+        required
+        class="border rounded-full border-yellow-300 w-full md:w-[300px] py-1 px-3 bg-transparent text-[#E4EA6B]"
+      ><br/><br/>
+
+      <button
+        class="w-full md:w-auto border py-2 px-10 rounded-full
+               bg-[#B0E4FF] text-[#092421] text-[14px]
+               hover:bg-black hover:text-[#B0E4FF]
+               hover:border-[#B0E4FF]
+               transition-all duration-[600ms] cursor-pointer">
+        Submit
+      </button>
+    </form>
+  </div>
+
+  <!-- CENTER / CONTACT -->
+  <div class="w-full md:w-[30%] text-[#E4EA6B] text-[13px] pt-6 md:pt-32">
+    <a href="tel:+3242394496" class="block mb-4">0324 239 449 6</a>
+    <a href="mailto:hammaddev00@gmail.com" class="block mb-4">
+      hammaddev00@gmail.com
+    </a>
+    <address class="not-italic">
+      Faisalabad, Punjab, Pakistan
+    </address>
+  </div>
+
+  <!-- RIGHT / LINKS -->
+  <div class="w-full md:w-[30%] text-[#E4EA6B] text-[13px] pt-6 md:pt-32">
+    <h6 class="mb-3">Privacy Policy</h6>
+    <h6>Accessibility Statement</h6>
+  </div>
+
+</div>
+<p class="bg-[#0F3430] text-[#E4EA6B] p-2 text-[12px] sm:text-[13px] text-center md:text-right">
+  &copy; 2026 by Rodri & Rodriguez. Powered and secured by 
+  <span class="text-yellow-100">HammadDev</span>
+</p>
+
+       </footer>
+</body>
+</html>
